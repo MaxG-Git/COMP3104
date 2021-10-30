@@ -13,11 +13,11 @@ install:
 script:  
   #- yarn lint  
   - yarn build  
-  #- mv ./build/index.html ./build/404.html
+  - mv build/index.html build/404.html
 deploy:  
   provider: pages  
   skip_cleanup: true  
   github_token: $github_token  
   local_dir: build  
   on:    
-  branch: main
+    branch: main

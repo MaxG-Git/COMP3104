@@ -4,7 +4,7 @@
   "description": "*Max Grossman*\r ---",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
@@ -30,10 +30,13 @@
     "yarn": "^1.13.0"
   },
   "homepage": "https://github.com/MaxG-Git/COMP3104#readme",
-  "eslintConfig": {  
+  "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [  
-    ">0.2%",  "not dead",  "not ie <= 11",  "not op_mini all"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
   ]
 }
